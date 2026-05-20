@@ -1,15 +1,16 @@
----
-title: EdTech Assistant Pro
-emoji: 🎓
-colorFrom: blue
-colorTo: green
-sdk: docker
-app_port: 7860
-pinned: false
-license: mit
----
+# ITHI.AI - Tailored Academic Knowledge Architecture
 
-# 🎓 المعيد الذكي — EdTech Assistant Pro
-**قسم تكنولوجيا التعليم والحاسب الآلي — كلية التربية النوعية، جامعة الزقازيق**
+ITHI.AI is a highly optimized, customized deployment of a sovereign Academic RAG infrastructure. This production instance demonstrates how a core generative AI pipeline can be specifically tailored, fine-tuned, and contextually aligned to ingest and master highly specialized internal curricula and educational structures.
 
-*Engineered by Abdelrahman Essam & Arwa Mahmoud*
+## 🎯 The Power of Customization
+
+While standard AI applications offer general responses, this customized engine showcases:
+- **Targeted Knowledge Ingestion:** Tailored routing that focuses strictly on pre-defined academic blueprints without factual drifting.
+- **Localized Prompt Alignment:** Fine-tuned context instructions tailored to deliver responses optimized for educational pedagogies.
+- **Premium User Experience:** Maintains the ultra-smooth, high-interactivity ChatGPT-style streaming backend powered by FastAPI.
+
+## 🛠️ Infrastructure Overview
+
+- **Core Engine:** FastAPI & Structured JSON/SQL Context Tracker
+- **Context Size:** Powered by 768-dimension semantic vector embeddings
+- **Live Deployment:** Hosted and running instantly on Hugging Face Spaces
